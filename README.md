@@ -1,7 +1,7 @@
 Intro
 =======
 
-This is a direct replacment for **NSURLCache**.
+An improved version of  **NSURLCache** with more control and information about cached elements
 
 Some times (or almost ervery time) you try to invalidate cached elements older than a date it doesn't work like expected (sigh), so is then when **NSURLBetterCache** enters in action with an implemntation made from the ground to fix it.
 
