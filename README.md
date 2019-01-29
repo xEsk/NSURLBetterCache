@@ -34,9 +34,7 @@ NSLog(@"b) MEMO USAGE: %ld", [NSURLCache sharedURLCache].currentMemoryUsage);
 
 As you can see, nothing happened (before 589.098 bytes, after 589.098 bytes)
 
-Now, **NSURLBetterCache** in action:
-
-We only need to add two lines of code:
+Now, **NSURLBetterCache** in action, We only need to add two lines of code:
 
 ```objc
 #import "NSURLBetterCache.h"
