@@ -48,9 +48,7 @@ We only need to add two lines of code:
 
 ```
 
-Then we execute the **SAME** code as showed before in **Apple's NSURLCache example**, and check out the result:
-
-**Output:**
+Then we execute the **SAME** code as showed before in **Apple's NSURLCache example**, and check out the results:
 
 ```
 2019-01-28 17:31:50.749513+0100 Test[27649:1101516] a) DISK USAGE: 589098
@@ -62,6 +60,6 @@ Then we execute the **SAME** code as showed before in **Apple's NSURLCache examp
 2019-01-28 17:31:50.800708+0100 Test[27649:1101516] b) MEMO USAGE: 0
 ```
 
-Now, the 20 elements has been removed from your cache (before 589.098 bytes, after 353.627 bytes).
+Now, 20 elements has been removed from your cache (before 589.098 bytes, after 353.627 bytes).
 
 Enjoy it!
