@@ -1,6 +1,6 @@
 //
 // NSURLBetterCache.h
-// NSRegEx (https://github.com/xEsk/NSURLBetterCache)
+// NSURLBetterCache (https://github.com/xEsk/NSURLBetterCache)
 //
 // Created by Xesc on 28/01/19.
 //
