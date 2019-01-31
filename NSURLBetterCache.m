@@ -153,9 +153,9 @@
     if (entry_IDs.count > 0)
     {
         NSString *IDs_query = [entry_IDs componentsJoinedByString:@" OR "];
-        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_blob_data WHERE %@", IDs_query] UTF8String] isQueryExecutable:NO];
-        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_receiver_data WHERE %@", IDs_query] UTF8String] isQueryExecutable:NO];
-        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_response WHERE %@", IDs_query] UTF8String] isQueryExecutable:NO];
+        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_blob_data WHERE %@", IDs_query] UTF8String] isQueryExecutable:YES];
+        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_receiver_data WHERE %@", IDs_query] UTF8String] isQueryExecutable:YES];
+        [self runQuery:[[NSString stringWithFormat:@"DELETE FROM cfurl_cache_response WHERE %@", IDs_query] UTF8String] isQueryExecutable:YES];
         // log info
         NSLog(@"Invalidated %ld elements from cache.", entry_IDs.count);
     }
